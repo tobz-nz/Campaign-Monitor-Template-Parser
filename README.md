@@ -14,7 +14,7 @@ Not all the tags are currently supported, but here is a list of what is:
 	<$title default='asdsd' link='true'$>
 	<$description default='asdsd'$>
 	<$imagesrc default='images/default.png' link='true'$>
-	<$repeater$>, <$repeatertitle$>, <$tableofcontents$> (these tags are just stripped from the outp	)
+	<$repeater$>, <$repeatertitle$>, <$tableofcontents$> (these tags are just stripped from the output)
 
 All the date variables are supported
 
