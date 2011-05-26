@@ -11,31 +11,31 @@ Or run cmparse.php?template=relative_path_to_your_template_file.html
 
 Not all the tags are currently supported, but here is a list of what is:
 
-* <$title default='asdsd' link='true'$>
-* <$description default='asdsd'$>
-* <$imagesrc default='images/default.png' link='true'$>
-* <$repeater$>, <$repeatertitle$>, <$tableofcontents$> (these tags are just stripped from the output)
+	<$title default='asdsd' link='true'$>
+	<$description default='asdsd'$>
+	<$imagesrc default='images/default.png' link='true'$>
+	<$repeater$>, <$repeatertitle$>, <$tableofcontents$> (these tags are just stripped from the outp	)
 
 All the date variables are supported
 
-* <$currentday$>
-* <$currentdayname$>
-* <$currentmonth$>
-* <$currentmonthname$>
-* <$currentyear$>
+	<$currentday$>
+	<$currentdayname$>
+	<$currentmonth$>
+	<$currentmonthname$>
+	<$currentyear$>
 
 All the special links are supported
 
-* <unsubscribe></unsubscribe>
-* <webversion></webversion>
-* <forwardtoafriend></forwardtoafriend>
-* <preferences></preferences>
-* <fblike></fblike>
-* <tweet></tweet>
+	<unsubscribe></unsubscribe>
+	<webversion></webversion>
+	<forwardtoafriend></forwardtoafriend>
+	<preferences></preferences>
+	<fblike></fblike>
+	<tweet></tweet>
 
 Subscriber variables are supported , including fallbacks
 
-* [firstname, fallback=]
-* [lastname, fallback=]
-* [fullname, fallback=]
-* [email, fallback=]
+	[firstname, fallback=]
+	[lastname, fallback=]
+	[fullname, fallback=]
+	[email, fallback=]
